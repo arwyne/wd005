@@ -12,6 +12,8 @@ body {
 	width: 80%;
 	background-color: white;
 	margin: 0 auto;
+	background-size: cover;
+	background-position: center;
 }
 
 .box {
@@ -19,6 +21,8 @@ body {
 	width: 50%;
 	height: 336px;
 	float: left;
+	background-size: cover;
+	background-position: center;
 }
 
 .clear:after {
