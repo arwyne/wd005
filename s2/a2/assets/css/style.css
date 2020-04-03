@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+body {
+	height: 100vh;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3em;
+	letter-spacing: 1.5px;
+	margin: 1em 0;
+	line-height: 1;
+	font-weight: 700;
+	color:#6393D2;
+
+}
+
+
+.jumbotron {
+	border-radius: 0;
+	height: 100vh;
+	margin: 0;
+}
+
+#signButton {
+	background-color: #6393D2;
+	color: #fff;
+}
+
+#signButton:hover {
+	background-color: #6a62d1;
+	transition: 0.75s;
+}
+
+
