@@ -57,6 +57,18 @@ document.querySelector('#registerButton').addEventListener('click', function() {
 			type : 'success',
 			title : 'Ayos success!'
 		})
+
+		// syntax localStorage.setItem("key", value)
+		localStorage.setItem("username", username);
+		localStorage.setItem("password", password);
+		localStorage.setItem("email", email);
+		localStorage.setItem("etoYungKey", "thisIsTheValue");
+
+		// if user registered successfully, the user will be redirected to profile page
+		window.location.href="./profile.html"
+		// window.location.href="https://www.google.com"
+
+
 	}
 
 })

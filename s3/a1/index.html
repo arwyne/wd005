@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grading System</title>
+
+	<!-- bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- external css -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+	
+	<div class="container bg-secondary text-dark">
+		<h1 class="text-light">Grading Sytem</h1>
+		<div class="container-items">
+			<form>
+				<div>
+					<input type="text" id="input1">
+				</div>
+				<div>
+					<input type="text" id="input2">
+				</div>	
+					<input type="text" id="input3">
+				<div>
+					<input type="text" id="input4">
+				</div>
+			</form>
+
+			<button class="btn-primary" id="compute">Get Average</button>
+			<h3>
+				Grades:
+				<span id="grades"></span>
+			</h3>
+
+			<h3>
+				Average:
+				<span id="average"></span>
+			</h3>
+			<h3>
+				Pass or Fail:
+				<span id="pof"></span>
+			</h3>
+			<h3>
+				QPI:
+				<span id="qpi"></span>
+			</h3>
+		</div>
+	</div>
+
+	<!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+	<!-- external js -->
+	<script src="./assets/js/script.js"></script>
+</body>
+</html>

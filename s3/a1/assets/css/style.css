@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	margin-top: 10vh;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 50vh;
+	max-width: 500px;
+}
+
+.container-items {
+	padding-top: 20px;
+}
+
+
+#compute {
+	padding: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+input {
+	margin-bottom: 5px;
+}
+
+
